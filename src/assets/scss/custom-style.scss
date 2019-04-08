@@ -1,0 +1,14 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'components/waves.scss';
+@import 'components/btn.scss';
+@import 'components/form.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+  height: 100%;
+}
+
+body{
+  background: #f1f4f5;
+}

@@ -1,0 +1,19 @@
+.checkbox__input{
+  width: 24px;
+  height: 24px;
+  margin-left: -20px;
+}
+
+.checkbox_label::after, .checkbox_label::before {
+  width: 24px;
+  height: 24px;
+  top: 0;
+}
+
+.checkbox_theme_primary .checkbox__input[type=checkbox]:checked+.checkbox__input[type=hidden]+.checkbox_label::before,
+.checkbox_theme_primary .checkbox__input[type=checkbox]:checked+.checkbox_label::before,
+.checkbox_theme_primary .checkbox__input[type=radio]:checked+.checkbox__input[type=hidden]+.checkbox_label::before,
+.checkbox_theme_primary .checkbox__input[type=radio]:checked+.checkbox_label::before{
+  background-color:#3f51b5;
+  border-color:#3f51b5
+}

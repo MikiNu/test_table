@@ -1,0 +1,38 @@
+.waves__color {
+  color: #fff;
+}
+
+.btn_waves_effect {
+  &:active, &:hover, &:focus{
+    background-color: #5c6bc0;
+    border-color: #5c6bc0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}
+
+.waves_color_effect:active, .waves_color_effect:hover {
+  color: rgba(255,255,255,.8);
+}
+
+.waves__link {
+  &:focus, &:hover {
+    background-color: rgba(33,33,33,.05);
+  }
+}
+
+.waves__footer {
+  &:focus, &:hover {
+    background-color: #d3d3d3;
+  }
+}
+
+.waves_color_footer {
+  background-color: #e0e0e0;
+}
+
+.waves_theme_nav{
+  &:active, &:hover, &:focus {
+    background-color: rgba(0,0,0,.1);
+  }
+}

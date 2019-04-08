@@ -1,0 +1,16 @@
+.btn_theme_primary {
+  background-color: #2e3c9b;
+}
+
+.btn_theme_social {
+  &:focus, &:hover, &:active {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}
+
+.btn_outline_none {
+  &:focus, &:hover, &:active {
+    outline-style: none;
+  }
+}

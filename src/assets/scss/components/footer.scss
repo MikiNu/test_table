@@ -1,0 +1,10 @@
+.footer {
+  background: #f1f4f5;
+  @media  only screen and (max-width: 767px) {
+    margin:0;
+  }
+}
+
+.footer__link{
+  color: #3949ab;
+}

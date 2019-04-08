@@ -1,0 +1,22 @@
+.avatar {
+  position: relative;
+  display: inline-block;
+  i {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #11c26d;
+    border: 2px solid #fff;
+    border-radius: 100%;
+  }
+}
+
+.avatar_img_size_s {
+  width: 30px;
+}
+
+.avatar_img_size_m {
+   width: 50px;
+ }

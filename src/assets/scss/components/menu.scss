@@ -1,0 +1,12 @@
+.menu .active {
+  color: #757575;
+  text-decoration: none;
+  background-color: #eee;
+}
+.menu__item {
+  &:hover, &:focus, &:active{
+    color: #757575;
+    text-decoration: none;
+    background-color: #eee;
+  }
+}

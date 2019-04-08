@@ -1,0 +1,20 @@
+.login {
+    background-color:#2e3c9b;
+}
+
+.login__panel {
+    width: 400px;
+    border-radius: .286rem;
+    @media  only screen and (max-width: 480px) {
+        width: auto;
+    }
+}
+
+.page-copyright-inverse {
+    color: #fff;
+    font-size: .858rem;
+    letter-spacing: 1px;
+}
+
+
+
